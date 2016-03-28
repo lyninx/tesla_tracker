@@ -1,0 +1,11 @@
+{
+  "name": "tesla-hack",
+  "version": "0.0.0",
+  "description": "Utilities for the Tesla Model S ",
+  "dependencies": {
+    "express": "~4.0.0",
+    "teslams": "^1.1.4",
+    "wemore": "~0.2.0"
+  },
+  "devDependencies": {}
+}

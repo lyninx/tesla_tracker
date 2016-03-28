@@ -1,0 +1,21 @@
+<div id="main">
+	<div class="row">
+		<h2><span>Tesla</span> Tracker</h2>
+		<div class="block">Current Speed: {{speed}}<br>
+		Location: {{lat}} {{long}}<br>
+		State: {{state}}</div>
+	</div>
+	<div class="row">
+		<div class="block map">
+			<div id="map"></div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="block">
+		<button class="warning" ng-click="honk()">Honk!</button>
+		<button class="warning" ng-click="blink()">Blink</button>
+		<button class="danger" ng-click="clearMarkers()">Clear Waypoints</button>
+		</div>
+	</div>
+
+</div>
